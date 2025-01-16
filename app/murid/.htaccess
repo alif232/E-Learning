@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^home$ index.php [L]
+RewriteRule ^course$ course.php [L]
+RewriteRule ^tugas$ tugas.php [L]
+
+</IfModule>

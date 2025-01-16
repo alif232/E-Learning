@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^login$ index.php [L]
+RewriteRule ^register$ register.php [L]
+
+</IfModule>

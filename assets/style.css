@@ -1,0 +1,120 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: 20px;
+}
+
+/* Login form styling */
+.login-form {
+    flex: 1;
+    padding: 20px;
+}
+
+.login-form img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form input styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #4cae4c;
+}
+
+/* Image container styling */
+.image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Welcome message styling */
+.welcome-message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.welcome-message h2 {
+    margin: 0;
+}
+
+.welcome-message p {
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        width: 90%;
+    }
+   
+    .form-control {
+        width: 100%;
+    }
+   
+    .alert {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .login-form img {
+        width: 150px;
+        height: auto;
+    }
+}
